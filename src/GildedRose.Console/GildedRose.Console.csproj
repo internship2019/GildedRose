@@ -42,11 +42,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GildedInn.cs" />
+    <Compile Include="InnItems\IInnItem.cs" />
+    <Compile Include="InnItems\AgedBrie.cs" />
+    <Compile Include="InnItems\InnItemBase.cs" />
+    <Compile Include="InnItems\DexterityVest.cs" />
+    <Compile Include="InnItems\ElixirOfTheMongoose.cs" />
+    <Compile Include="InnItems\SulfurasHandOfRagnaros.cs" />
+    <Compile Include="InnItems\BackstagePassesToATafkal80etcConcert.cs" />
+    <Compile Include="InnItems\ConjuredManaCake.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="InnItems\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

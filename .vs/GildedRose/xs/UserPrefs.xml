@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GildedRose" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="GildedRose.Console" expanded="True">
+              <Node name="InnItems" expanded="True">
+                <Node name="BackstagePassesToATafkal80etcConcert.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GildedRose.Console PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
