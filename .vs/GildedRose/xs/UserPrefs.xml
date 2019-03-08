@@ -1,17 +1,22 @@
 ﻿<Properties StartupConfiguration="{68BECDC5-4349-4C42-91A6-22AF0BA3CBBC}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GildedRose/Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GildedRose/GildedRoseInn.cs">
     <Files>
       <File FileName="GildedRoseTests/Inventory/ItemCategorization/ItemCategorizationTests.cs" Line="12" Column="6" />
-      <File FileName="GildedRose/Item.cs" Line="12" Column="10" />
+      <File FileName="GildedRose/Item.cs" Line="19" Column="1" />
+      <File FileName="GildedRose/GildedRoseInn.cs" Line="30" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GildedRose" expanded="True">
             <Node name="GildedRose" expanded="True">
-              <Node name="Item.cs" selected="True" />
+              <Node name="GildedRoseInn.cs" selected="True" />
             </Node>
-            <Node name="GildedRoseTests" expanded="True" />
+            <Node name="GildedRoseTests" expanded="True">
+              <Node name="Inventory" expanded="True">
+                <Node name="ItemCategorization" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
