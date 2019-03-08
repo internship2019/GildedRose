@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GildedRose.Console.InnItems
+namespace GildedRose.Inventory.Items
 {
     public interface IInnItem
     {

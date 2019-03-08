@@ -1,13 +1,30 @@
-﻿<Properties StartupConfiguration="{F2E879A9-7F1C-4C34-AB0D-2662F9815046}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{68BECDC5-4349-4C42-91A6-22AF0BA3CBBC}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GildedRose/Inventory/Items/BetterByAgeItem.cs">
+    <Files>
+      <File FileName="GildedRoseTests/Inventory/Items/BackstagePassTests.cs" Line="69" Column="25" />
+      <File FileName="GildedRoseTests/Inventory/ItemCategorization/ItemCategorizationTests.cs" Line="19" Column="13" />
+      <File FileName="GildedRoseTests/Inventory/Items/BasicInnItemTests.cs" Line="10" Column="8" />
+      <File FileName="GildedRoseTests/Inventory/Items/ConjuredItemTests.cs" Line="16" Column="19" />
+      <File FileName="GildedRoseTests/Inventory/Items/BetterByAgeItemTests.cs" Line="47" Column="1" />
+      <File FileName="GildedRoseTests/Inventory/Items/LegendaryItemTests.cs" Line="20" Column="13" />
+      <File FileName="GildedRose/Inventory/Items/BetterByAgeItem.cs" Line="16" Column="21" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GildedRose" expanded="True">
-            <Node name="Solution Items" expanded="True" />
-            <Node name="GildedRose.Console" expanded="True">
-              <Node name="InnItems" expanded="True">
-                <Node name="BackstagePassesToATafkal80etcConcert.cs" selected="True" />
+            <Node name="GildedRose" expanded="True">
+              <Node name="Inventory" expanded="True">
+                <Node name="Items" expanded="True">
+                  <Node name="BetterByAgeItem.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="GildedRose.Console" expanded="True" />
+            <Node name="GildedRoseTests" expanded="True">
+              <Node name="Inventory" expanded="True">
+                <Node name="ItemCategorization" expanded="True" />
+                <Node name="Items" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -15,6 +32,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GildedRoseTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.GildedRose.Console PreferredExecutionTarget="MonoDevelop.Default" />
