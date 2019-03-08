@@ -26,5 +26,10 @@ namespace GildedRose.Inventory
             foreach (var item in items)
                 item.Update();
         }
+
+        public IEnumerable<IInnItem> EnumerateItems()
+        {
+            return items;
+        }
     }
 }

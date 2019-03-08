@@ -40,7 +40,7 @@ namespace GildedRoseTests.Inventory
             var categorizedItem = categorizer.Categorize(testItem);
 
             // Assert
-            Assert.AreEqual(categorizedItem, targetToReturn);
+            Assert.AreSame(categorizedItem, targetToReturn);
         }
     }
 }

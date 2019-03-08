@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using GildedRose.Inventory.Items;
 
 namespace GildedRose.Console
 {
@@ -9,6 +10,12 @@ namespace GildedRose.Console
         {
             var inn = new GildedRoseInn();
             AddItems(inn);
+
+            PrinAllItems(inn);
+            inn.UpdateQuality();
+
+            System.Console.WriteLine();
+            PrinAllItems(inn);
 
             System.Console.ReadKey();
         }
@@ -21,6 +28,12 @@ namespace GildedRose.Console
             inn.AddItem(new Item("Sulfuras, Hand of Ragnaros", 0, 80));
             inn.AddItem(new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20));
             inn.AddItem(new Item("Conjured Mana Cake", 3, 6));
+        }
+
+        private static void PrinAllItems(GildedRoseInn inn)
+        {
+            foreach (var item in inn.EnumerateItems())
+                System.Console.WriteLine(item);
         }
     }
 }

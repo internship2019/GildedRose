@@ -8,5 +8,6 @@ namespace GildedRose.Inventory
     {
         void Add(Item item);
         void UpdateQuality();
+        IEnumerable<IInnItem> EnumerateItems();
     }
 }

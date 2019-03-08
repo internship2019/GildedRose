@@ -16,5 +16,10 @@ namespace GildedRose.Inventory.Items
         {
             // Do nothing
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + " A Legendary item";
+        }
     }
 }

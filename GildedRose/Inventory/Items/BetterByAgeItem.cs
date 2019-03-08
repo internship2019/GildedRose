@@ -4,9 +4,7 @@ namespace GildedRose.Inventory.Items
 {
     public class BetterByAgeItem : BaseInnItem
     {
-        private const string prefix = "Aged";
-
-        public BetterByAgeItem(string name, int sellIn, int quality) : base(AddPrefix(name, prefix), sellIn, quality)
+        public BetterByAgeItem(string name, int sellIn, int quality) : base(name, sellIn, quality)
         {
         }
 
@@ -17,6 +15,11 @@ namespace GildedRose.Inventory.Items
 
             if (SellIn < 0)
                 Quality++;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + " It gets better by age.";
         }
     }
 }

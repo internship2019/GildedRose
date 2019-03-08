@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using GildedRose.Inventory;
 using GildedRose.Inventory.ItemCategorization;
 using GildedRose.Inventory.ItemCategorization.Criterias;
+using GildedRose.Inventory.Items;
 
 namespace GildedRose
 {
@@ -30,6 +32,11 @@ namespace GildedRose
         public void UpdateQuality()
         {
             innInventory.UpdateQuality();
+        }
+
+        public IEnumerable<IInnItem> EnumerateItems()
+        {
+            return innInventory.EnumerateItems();
         }
     }
 }

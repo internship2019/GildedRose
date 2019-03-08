@@ -4,9 +4,7 @@ namespace GildedRose.Inventory.Items
 {
     public class BackstagePassItem : BaseInnItem
     {
-        private const string prefix = "Backstage Passes";
-
-        public BackstagePassItem(string name, int sellIn, int quality) : base(AddPrefix(name, prefix), sellIn, quality)
+        public BackstagePassItem(string name, int sellIn, int quality) : base(name, sellIn, quality)
         {
         }
 

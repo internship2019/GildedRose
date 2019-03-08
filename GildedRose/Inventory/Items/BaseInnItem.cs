@@ -36,12 +36,9 @@ namespace GildedRose.Inventory.Items
                 Quality--;
         }
 
-        protected static string AddPrefix(string originalStr, string prefix)
+        public override string ToString()
         {
-            if (originalStr.ToLower().Contains(prefix.ToLower()))
-                return originalStr;
-
-            return $"{prefix} {originalStr}";
+            return $"{Name}: SellIn {SellIn}. Quality = {Quality}.";
         }
     }
 }
